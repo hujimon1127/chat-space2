@@ -1,0 +1,132 @@
+.main_bar.header{
+ width: calc(100vw - 300px);
+ float: right;
+ border-bottom: #eeeeee;
+}
+
+.chatMain_group-info {
+  background-color: #ffffff;
+  width: calc(100% -300px);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatMain_group-info__side-name{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    &__subName{
+      font-size: 12px;
+      color: #999999;
+      padding-top: 10px;
+      padding-left: 40px;
+    }
+}
+
+.chatMain_group-info__side_menu{
+  float: right;
+  border: 1px solid;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 28px;
+  margin-right: 40px;
+  color: #38aef0;
+  list-style: none;
+
+  a{
+    color: #38aef0; 
+    text-decoration: none;
+  }
+}
+
+.main_bar.contents{
+  width: calc(100vw - 300px);
+  background-color: #fafafa;
+  height: calc(100vh - 190px );
+  float: right;
+  padding: 35px 40px;
+  overflow: scroll;
+}
+
+.chatMain_massage-list{
+  margin-bottom:10px ;
+}
+
+.chatMain_massage-list__side-List{
+  display: flex;
+}
+
+.chatMain_massage-list__side-List-name{
+ font-size: 16px;
+ color: #333333;
+}
+
+.chatMain_massage-list__side-List-time{
+ font-size: 12px;
+ color: #999999;
+ margin-left: 5px;
+
+}
+
+
+
+.chatMain_massage-list__side-List-massege{
+  font-size: 14px;
+  color: #434a54;
+
+}
+
+.footer{
+ background-color:#d2d2d2 ;
+ height: 90px;
+ width: calc(100vw - 300px);
+float: right;
+  }
+
+.footer_message{
+display: flex;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.footer_message_bar{
+ border-style: none;
+ height: 50px;
+ width: 100%;
+ padding: 0 10px;
+ font-size: 16px;
+ color: #999999;
+ background-color: white;
+ margin-top: 20px;
+ display: flex;
+ position: relative;
+
+ &_massge{
+
+ }
+ &_imgbtn{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   cursor: pointer;
+ }
+}
+
+.input{
+  display: none;
+}
+
+.ooter_message_sidebtn{
+  border-style: none;
+  background-color: #38aef0;
+  width: 100px;
+  height: 50px; 
+  margin-left: 15px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
