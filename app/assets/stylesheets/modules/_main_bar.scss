@@ -10,19 +10,20 @@
   height: 100px;
   display: flex;
   justify-content: space-between;
-}
-
-.chatMain_group-info__side-name{
+   &__side-name{
     padding-top: 35px;
     padding-bottom: 15px;
     padding-left: 40px;
     padding-right: 40px;
-    &__subName{
+    }
+
+   &__side-name__subName{
       font-size: 12px;
       color: #999999;
       padding-top: 10px;
       padding-left: 40px;
-    }
+     }
+
 }
 
 .chatMain_group-info__side_menu{
@@ -52,46 +53,38 @@
 
 .chatMain_massage-list{
   margin-bottom:10px ;
-}
-
-.chatMain_massage-list__side-List{
+&__side-List{
   display: flex;
 }
 
-.chatMain_massage-list__side-List-name{
+&__side-List-name{
  font-size: 16px;
  color: #333333;
 }
 
-.chatMain_massage-list__side-List-time{
+&__side-List-time{
  font-size: 12px;
  color: #999999;
  margin-left: 5px;
 
 }
-
-
-
-.chatMain_massage-list__side-List-massege{
+&__side-List-massege{
   font-size: 14px;
   color: #434a54;
 
 }
-
+}
 .footer{
  background-color:#d2d2d2 ;
  height: 90px;
  width: calc(100vw - 300px);
 float: right;
-  }
-
-.footer_message{
+  &_message{
 display: flex;
 padding-left: 40px;
 padding-right: 40px;
 }
-
-.footer_message_bar{
+&_message_bar{
  border-style: none;
  height: 50px;
  width: 100%;
@@ -113,12 +106,13 @@ padding-right: 40px;
    cursor: pointer;
  }
 }
+}
 
 .input{
   display: none;
 }
 
-.ooter_message_sidebtn{
+.footer_message_sidebtn{
   border-style: none;
   background-color: #38aef0;
   width: 100px;
