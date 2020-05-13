@@ -1,0 +1,21 @@
+
+.chat-side
+  .sideBar.header
+    .sideBar__user-box
+      .sideBar__user-box_userName 
+        = current_user.name
+    %ul.sideBar__user-box__menu
+      %li.sideBar__user-box__menu__btn
+        = link_to new_group_path  do
+          = icon('far', 'edit', class: "ideBar__user-box__menu__btn--icon")
+      %li.sideBar__user-box__menu__btn
+        = link_to edit_user_path(current_user) do
+          = icon('fas', 'cog', class: "ideBar__user-box__menu__btn--icon")
+  .side-bar__groups-list
+    - current_user.groups.each do |group|
+      .group
+        = link_to '#' do
+          .group__name
+            = group.name
+          .group__message
+            メッセージはまだありません。

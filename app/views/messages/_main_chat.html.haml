@@ -1,0 +1,28 @@
+
+.main_bar.header
+ .chatMain_group-info
+  .chatMain_group-info__group_left
+   .chatMain_group-info__side-name test
+   .chatMain_group-info__side-name__subName<member:masa>
+  .chatMain_group-info__group_right
+   .chatMain_group-info__side_menu  
+    = link_to "#" do
+     Edit
+  
+
+.main_bar.contents
+ .chatMain_massage-list
+  .chatMain_massage-list__side-List
+   .chatMain_massage-list__side-List-name masa
+   .chatMain_massage-list__side-List-time 2020/4/30 11:20
+  .chatMain_massage-list__side-List-massege 今日は晴
+
+.footer
+ .footer_message
+  .footer_message_bar
+   .footer_message_bar_massage
+   .footer_message_bar_imgbtn
+    %label{class: "input-box__image"}
+     = icon('fas', 'image')
+     %input{type: "file", class:'input'}
+  .footer_message_sidebtn Send
