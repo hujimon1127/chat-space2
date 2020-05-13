@@ -24,17 +24,14 @@
   height:20px ;
   line-height: 20px;
   
-}
-
-
-.sideBar__user-box_userName{
+&_userName{
   display: flex;
   line-height: normal;
   font-weight: bold;
   line-height: 20px;
 }
 
-.sideBar__user-box__menu{
+&__menu{
  display: flex;
  list-style: none;
  color: #ffffff;
@@ -51,8 +48,4 @@
  
   
 }
-
-
-.side_bar.contents{
 }
-
