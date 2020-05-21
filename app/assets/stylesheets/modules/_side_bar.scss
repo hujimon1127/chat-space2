@@ -24,45 +24,28 @@
   height:20px ;
   line-height: 20px;
   
-  &_userName{
-    display: flex;
-    line-height: normal;
-    font-weight: bold;
-    line-height: 20px;
-  }
-
-  &__menu{
-    display: flex;
-    list-style: none;
-    color: #ffffff;
-    float: right;
-    .far{
-      margin-right: 5px;
-      color:white; 
-    }
-    .fas{
-      color:white;
-   
-    }
-  }
+&_userName{
+  display: flex;
+  line-height: normal;
+  font-weight: bold;
+  line-height: 20px;
 }
 
-.side-bar__groups-list {
-  padding: 20px;
-  background-color: #2f3e51;
-  height: calc(100vh - 100px);
-}
-
-.group {
-  &__name {
-    color: #ffffff;
-  } 
-
-  &__message {
-    color: #ffffff;
+&__menu{
+ display: flex;
+ list-style: none;
+ color: #ffffff;
+ float: right;
+  .far{
+    margin-right: 5px;
+    color:white;
+    
   }
+  .fas{
+    color:white;
+    
+  }
+ 
+  
 }
-
-a {
-  text-decoration: none;
 }
