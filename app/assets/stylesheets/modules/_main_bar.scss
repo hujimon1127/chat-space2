@@ -1,3 +1,8 @@
+@mixin clearfix() {
+    font-size: 12px;
+    color: #999999;
+}
+
 .main_bar.header{
   width: calc(100vw - 300px);
   border-bottom: #eeeeee;
@@ -18,8 +23,7 @@
   }
 
   &__side-name__subName{
-    font-size: 12px;
-    color: #999999;
+    @include clearfix();
     padding-top: 10px;
     padding-left: 40px;
   }
@@ -60,8 +64,7 @@
     }
   
   &__date{
-      font-size: 12px;
-      color: #999999;
+    @include clearfix();
       margin-left: 5px;
     }
 }
@@ -75,7 +78,7 @@
 .footer{
   background-color:#d2d2d2 ;
   height: 90px;
-  // width: calc(100vw - 300px);
+
   padding: 20px 40px;
 
   .new_message {
