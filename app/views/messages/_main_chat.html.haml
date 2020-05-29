@@ -14,12 +14,8 @@
   
 
   .main_bar.contents
-    .chatMain_massage-list
-      .chatMain_massage-list__side-List
-        .chatMain_massage-list__side-List__name masa
-        .chatMain_massage-list__side-List__time 2020/4/30 11:20
-      .chatMain_massage-list__massege
-      今日は晴
+    = render @messages
+   
 
 
   .footer
@@ -29,7 +25,7 @@
         = f.label :image, class: 'input-box__image' do
           = icon('fas', 'image', class: 'icon')
           = f.file_field :image, class: 'input'
-      = f.submit 'Send', class: 'footer_message_sidebtn Send'
+      = f.submit 'Send', class: 'footer_message_sidebtn'
 -# .footer
 -#  .footer_message
 -#   .footer_message_bar
