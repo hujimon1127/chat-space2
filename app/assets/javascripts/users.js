@@ -58,8 +58,7 @@ $(function() {
     console.log
     const userName = $(this).attr("data-user-name");
     const userId = $(this).attr("data-user-id");
-    // console.log(userName)
-    // console.log(userId)
+    
     $(this)
       .parent()
       .remove();
