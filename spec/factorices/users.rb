@@ -5,5 +5,7 @@ FactoryBot.define do
     email {Faker::Internet.free_email}
     password {password}
     password_confirmation {password}
+    sequence(:email) {Faker::Internet.email}
+
   end
 end
