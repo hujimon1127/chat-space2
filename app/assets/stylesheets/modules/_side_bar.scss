@@ -29,6 +29,7 @@
     line-height: normal;
     font-weight: bold;
     line-height: 20px;
+    font-size: 16px;
   }
 
   &__menu{
@@ -54,9 +55,11 @@
 }
 
 .group {
+  margin-bottom: 40px;
   &__name {
     color: #ffffff;
     font-size:15px;
+    margin-bottom: 5px;
   } 
 
   &__message {
