@@ -85,8 +85,8 @@ var reloadMessages = function() {
       insertHTML += buildHTML(message)
     });
     //メッセージが入ったHTMLに、入れ物ごと追加
-    $('.messages').append(insertHTML);
-    $('.messages').animate({ scrollTop: $('.messages')[0].scrollHeight});
+    $('.main_bar contents').append(insertHTML);
+    $('.main_bar contents').animate({ scrollTop: $('.main_bar contents')[0].scrollHeight});
    }
   })
   .fail(function() {
